@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kahoot jr</title>
+    <style>
+        .one
+        {text-align: center; }
+        img {height: 600px;
+        width: 600px;}
+        @keyframes animation1
+        {
+           0% {background-color: aqua;}
+        25% {background-color: antiquewhite;}
+        50% {background-color: blue;}
+        75% {background-color: blueviolet;}
+        100% {background-color: crimson;}
+        }
+        body
+        {
+            animation-name: animation1 ;
+            animation-duration:15s ;
+            animation-iteration-count: infinite;
+    
+        }
+    h1
+    {animation-name: textanimation;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        text-align: center;
+    }
+        @keyframes textanimation
+
+        {
+            0% {font-size: 100px;}
+            10% {font-size: 110px;}
+            20%{font-size: 120px;}
+            30%{font-size: 130px;}
+            40%{font-size: 140px;}
+            50%{font-size: 150px;}
+            60%{font-size: 160px;}
+            70%{font-size: 170px ;}
+            80%{font-size:180px ;}
+            90%{font-size:190px ;}
+            100%{font-size: 200px; ;}
+        
+         }
+
+           h2
+           {
+               font-size: 70px;
+               color: black;
+           } 
+           button
+           {
+               height: 10%;
+               width: 25%;
+               font-size: 20px;
+               color: royalblue;
+               border-radius: 10px;
+               box-shadow: 2px 2px grey;
+             background-color: transparent;
+             transition: all;
+             transition-duration: 1s;
+             
+           }
+           button:hover
+        {
+            transform: scale(1.1);
+        }
+
+
+
+    </style>
+    <script>
+        function correct()
+         {
+           alert("you have got the answer correct")  
+         }
+function wrong()
+{
+    alert("better luck next time ")
+}
+    </script>
+
+
+
+</head>
+<body>
+    <h1>
+       oculus   
+    </h1>
+    <br>
+    <center>
+    <img  src="https://miro.medium.com/max/1400/1*L76A5gL6176UbMgn7q4Ybg.jpeg" alt="ur interenet sucks">
+</center>
+<br>
+<div class="one">
+<h2>
+    1.what is the best game ?
+</h2>
+<br>
+<button onclick="correct();">rec room </button> &nbsp;&nbsp;
+<button onclick="correct();">gorrila tag  </button>
+<br>
+<br>
+<button onclick="wrong();"> job simulator </button> &nbsp; &nbsp;
+<button onclick="wrong();"> vacay simulator</button>
+<br>
+<br>
+<h2>
+ 2.how do you power down fully?
+</h2>
+<br>
+<button onclick="wrong();">hold the side button</button>&nbsp;&nbsp;
+<button onclick="wrong();">press the side button once </button>
+<br>
+<br>
+<button onclick="correct();">hold the side button and select the popup</button>
+<button onclick="wrong();">press the side button twice</button>
+<br>
+<br>
+<h2>
+  3. what is the most anoying thing about an oculus?
+</h2>
+<br>
+<button onclick="wrong();">it takes a lot of time to charge</button>&nbsp;&nbsp;
+<button onclick="correct();">it has a small battery</button>
+<br>
+<br>
+<button onclick="wrong();">it likes 5ata</button>
+<button onclick="wrong();">the games are too expensive</button>
+<br>
+<br>
+<h2>
+   4. the most played game on oculus?
+</h2>
+<br>
+<button onclick="correct();">rec room</button>&nbsp;&nbsp;
+<button onclick="wrong();">blade and sorcery nomzd</button>
+<br>
+<br>
+<button onclick="wrong();">darth vader</button>
+<button onclick="wrong();">the climb</button>
+<br>
+<h2>
+    5.what is your faviorite game?
+</h2>
+<br>
+<button onclick="correct();">rec room</button>&nbsp;&nbsp;
+<button onclick="correct();">gorila tag</button>
+<br>
+<br>
+<button onclick="correct();">blade and sorcery nomad</button>
+<button onclick="correct();">darth vader </button>
+</div>
+</body>
+</html>

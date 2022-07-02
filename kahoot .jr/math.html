@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kahoot jr</title>
+    <style>
+        .one
+        {text-align: center; }
+        img {height: 600px;
+        width: 600px;}
+        @keyframes animation1
+        {
+           0% {background-color: aqua;}
+        25% {background-color: antiquewhite;}
+        50% {background-color: blue;}
+        75% {background-color: blueviolet;}
+        100% {background-color: crimson;}
+        }
+        body
+        {
+            animation-name: animation1 ;
+            animation-duration:15s ;
+            animation-iteration-count: infinite;
+    
+        }
+    h1
+    {animation-name: textanimation;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        text-align: center;
+    }
+        @keyframes textanimation
+
+        {
+            0% {font-size: 100px;}
+            10% {font-size: 110px;}
+            20%{font-size: 120px;}
+            30%{font-size: 130px;}
+            40%{font-size: 140px;}
+            50%{font-size: 150px;}
+            60%{font-size: 160px;}
+            70%{font-size: 170px ;}
+            80%{font-size:180px ;}
+            90%{font-size:190px ;}
+            100%{font-size: 200px; ;}
+        
+         }
+
+           h2
+           {
+               font-size: 70px;
+               color: black;
+           } 
+           button
+           {
+               height: 10%;
+               width: 25%;
+               font-size: 20px;
+               color: royalblue;
+               border-radius: 10px;
+               box-shadow: 2px 2px grey;
+             background-color: transparent;
+             transition: all;
+             transition-duration: 1s;
+             
+           }
+           button:hover
+        {
+            transform: scale(1.1);
+        }
+
+
+
+    </style>
+    <script>
+        function correct()
+         {
+           alert("you have got the answer correct")  
+         }
+function wrong()
+{
+    alert("better luck next time ")
+}
+    </script>
+
+
+
+</head>
+<body>
+    <h1>
+        Math quiz
+    </h1>
+    <br>
+    <center>
+    <img  src="https://miro.medium.com/max/1400/1*L76A5gL6176UbMgn7q4Ybg.jpeg" alt="ur interenet sucks">
+</center>
+<br>
+<div class="one">
+<h2>
+    1.What is 23 times 3 ?
+</h2>
+<br>
+<button onclick="correct();"> 69</button> &nbsp;&nbsp;
+<button onclick="wrong();">67  </button>
+<br>
+<br>
+<button onclick="wrong();"> 690 </button> &nbsp; &nbsp;
+<button onclick="wrong();"> 42</button>
+<br>
+<br>
+<h2>
+ 2.   what is 10 times 40121213? 
+</h2>
+<br>
+<button onclick="wrong();">401212139</button>&nbsp;&nbsp;
+<button onclick="wrong();"> 4012121290</button>
+<br>
+<br>
+<button onclick="correct();">401212130</button>
+<button onclick="wrong();">401212140</button>
+<br>
+<br>
+<h2>
+  3.  what is 12 times 17?
+</h2>
+<br>
+<button onclick="wrong();">85</button>&nbsp;&nbsp;
+<button onclick="correct();">84</button>
+<br>
+<br>
+<button onclick="wrong();">83</button>
+<button onclick="wrong();">82</button>
+<br>
+<br>
+<h2>
+   4. what is A+2a =21 what is 2A?
+</h2>
+<br>
+<button onclick="correct();">7</button>&nbsp;&nbsp;
+<button onclick="wrong();">8</button>
+<br>
+<br>
+<button onclick="wrong();">4</button>
+<button onclick="wrong();">14</button>
+<br>
+<h2>
+    5.what is x  +3x -2x=2x what is x?
+</h2>
+<br>
+<button onclick="correct();">5</button>&nbsp;&nbsp;
+<button onclick="wrong();">10</button>
+<br>
+<br>
+<button onclick="wrong();">7</button>
+<button onclick="wrong();">4</button>
+</div>
+</body>
+</html>
